@@ -14,7 +14,7 @@ test('should properly output the area of rectangle', ()=>{
 });
 
 test('should properly output the info on rectangle', ()=>{
-    const outputRectangleInfo = getRectangleInfo((74,26), (74,26));
+    const outputRectangleInfo = getRectangleInfo((74), (26));
     const outarea = getRectangleArea(74, 26);
     const outperimeter = getRectanglePerimeter(74, 26);
     expect(outputRectangleInfo).toBe(`The perimeter of a rectangle is ${outperimeter} and the area is ${outarea}`);
